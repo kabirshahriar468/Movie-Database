@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiplescene.HomeController">
+   <children>
+      <Label fx:id="message" layoutX="96.0" layoutY="43.0" prefHeight="39.0" prefWidth="215.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="button" layoutX="365.0" layoutY="306.0" mnemonicParsing="false" onAction="#logoutAction" text="Logout" />
+      <Button layoutX="64.0" layoutY="50.0" mnemonicParsing="false" onAction="#onShowMovieClick" text="Show All Movies" />
+      <Button layoutX="62.0" layoutY="95.0" mnemonicParsing="false" onAction="#onMaxRevenueClick" text="Maximum Revenue Movie" />
+      <Button layoutX="62.0" layoutY="137.0" mnemonicParsing="false" onAction="#onMostRecentMovieClick" text="Most Recent Movie" />
+      <Button layoutX="62.0" layoutY="183.0" mnemonicParsing="false" onAction="#onTotalProfitClick" text="Total profit" />
+      <Button layoutX="62.0" layoutY="271.0" mnemonicParsing="false" onAction="#onTransferClick" text="Transfer Movie" />
+      <Button layoutX="62.0" layoutY="227.0" mnemonicParsing="false" onAction="#onAddMovieClick" text="Add New Movie" />
+   </children>
+</AnchorPane>

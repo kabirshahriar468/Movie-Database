@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiplescene.MaxRevenueMovieComtroller">
+   <children>
+      <Arc fill="DODGERBLUE" layoutX="90.0" layoutY="199.0" length="270.0" radiusX="82.0" radiusY="89.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Text fill="#3313c4" layoutX="201.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Highest Grossing Film:" wrappingWidth="290.13671875">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Text>
+      <ListView fx:id="maxRevenueMovieListview" layoutX="205.0" layoutY="110.0" prefHeight="234.0" prefWidth="307.0" />
+      <Button layoutX="526.0" layoutY="354.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Back" />
+   </children>
+</AnchorPane>
