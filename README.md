@@ -1,4 +1,4 @@
-# JavaFX Demo Project
+# Movie DataBase Project Using JavaFX 
 
 A comprehensive JavaFX application demonstrating various GUI components, animations, and multi-scene application architecture with a movie management system.
 
